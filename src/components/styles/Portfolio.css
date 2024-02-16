@@ -1,0 +1,64 @@
+/* body { */
+    /* background-color: dimgrey; */
+/* } */
+
+.about-main {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aliceblue; */
+}
+
+.about-biography {
+    width: 100%;
+    height: 100vh;
+}
+
+.about-name {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 7vw;
+    width: auto;
+    height: auto;
+    top: 25%;
+    left: 10%;
+}
+
+.about-avatar {
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    max-height: 100%;
+    position: absolute;
+}
+
+.about-biography-img {
+    top: 110%;
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 120%;
+    position: absolute;
+}
+
+.about-biography {
+    top: 110%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 120%;
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,43 @@
+.body {
+    background-color: white;
+}
+
+.name-row, .num-row {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.name-row {
+    font-size: 55px;
+}
+
+.num-row {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover .name-img {
+    color: white;
+    -webkit-text-stroke-width: 2.7px;
+    -webkit-text-stroke-color: black;
+    visibility: visible;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.name {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+a .name-img {
+    visibility: hidden;
+    position: absolute;
+}
